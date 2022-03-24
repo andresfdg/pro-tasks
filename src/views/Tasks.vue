@@ -44,7 +44,6 @@ export default {
           data: data[i],
         });
       }
-      console.log(this.projects);
     },
   },
 };

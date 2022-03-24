@@ -1,11 +1,14 @@
 <template>
   <div class="home">
-    <h1>home page</h1>
+    <register />
   </div>
 </template>
 
 <script>
-export default {};
+import Register from "../components/Register.vue";
+export default {
+  components: { Register },
+};
 </script>
 
 <style scoped>
